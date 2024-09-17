@@ -1,0 +1,56 @@
+body {
+    background-color: #DAD6D6;
+    color: #37515F
+}
+
+h1 {
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.game {
+    background-color: #37515F;
+    color: #DAD6D6;
+    border: 1px;
+    border-color:black;
+    padding:16px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    border-radius: 4px;
+}
+
+.rockButton {
+    background-color: #92BFB1;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.paperButton {
+    background-color: #F4AC45;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.scissorButton {
+    background-color: #B47AEA;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.playButton {
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+}
