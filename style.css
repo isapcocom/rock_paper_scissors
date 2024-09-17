@@ -1,6 +1,6 @@
 body {
     background-color: #DAD6D6;
-    color: #37515F
+    color: #37515F;
 }
 
 h1 {
@@ -22,7 +22,6 @@ button {
     background-color: #37515F;
     color: #DAD6D6;
     border: 1px;
-    border-color:black;
     padding:16px;
     width: fit-content;
     display: flex;
@@ -33,18 +32,21 @@ button {
 
 .rockButton {
     background-color: #92BFB1;
+    color: black;
     padding: 4px;
     border-radius: 8px;
 }
 
 .paperButton {
     background-color: #F4AC45;
+    color: black;
     padding: 4px;
     border-radius: 8px;
 }
 
 .scissorButton {
     background-color: #B47AEA;
+    color: black;
     padding: 4px;
     border-radius: 8px;
 }
