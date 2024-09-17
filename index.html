@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="style.css" rel="stylesheet" />
-        <title>Rock Paper Scissors</title>
-    </head>
-    <body>
-        <h1>Rock Paper Scissors</h1>
-        <div class="center">
-            <div id="scoreboard">
-            </div>
-        </div>
-        <hr />
-        <div class="center">
-            <button class="playButton" style="margin-bottom: 16px;" id="playButton" onclick="playGame()">Play Game</button>
-        </div>
-        <div style="display: flex; width: 100%; justify-content: center;">
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="/favicon.png" type="image/x-icon" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <img
+      class="center"
+      src="/images/logo.png"
+      style="max-width: 250px"
+      alt="Rock Paper Scissors"
+    />
+    <br />
+      <div class="center" style="text-align: center" id="scoreboard">
+        Wins: <strong>0</strong> | Lose: <strong>0</strong> | Ties <strong>0</strong>
 
-            <div style="display: none;" class="game" id="game">
-
-            </div>
-        </div>
-        <script src="game.js"></script>
-    </body>
+      </div>
+    <hr />
+    <button style="max-width:fit-content;" class="playButton center" id="playButton" onclick="playGame()">
+      Play Game
+    </button>
+    <br />
+    <div style="display: none" class="game center" id="game"></div>
+    <script src="game.js"></script>
+  </body>
 </html>
